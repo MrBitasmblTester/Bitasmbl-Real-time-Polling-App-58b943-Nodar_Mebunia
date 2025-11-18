@@ -1,0 +1,10 @@
+{
+  "name":"realtime-polls-frontend",
+  "version":"0.0.1",
+  "scripts":{"dev":"vite"},
+  "dependencies":{
+    "vue":"^3.3.0",
+    "socket.io-client":"^4.9.0"
+  },
+  "devDependencies":{ "vite":"^4.0.0" }
+}
