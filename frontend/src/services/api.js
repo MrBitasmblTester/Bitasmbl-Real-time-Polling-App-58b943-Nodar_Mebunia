@@ -1,0 +1,2 @@
+export async function fetchPolls(){ const r=await fetch('http://localhost:3000/polls'); return r.json(); }
+export async function createPoll(payload){ const r=await fetch('http://localhost:3000/polls',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}); return r.json(); }
