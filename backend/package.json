@@ -1,0 +1,8 @@
+{
+  "name":"realtime-polls-backend",
+  "version":"0.0.1",
+  "main":"index.js",
+  "dependencies":{
+    "socket.io":"^4.9.0"
+  }
+}
